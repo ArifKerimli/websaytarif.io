@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arif Kərimli</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<!-- Home page -->    
+<section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/astara.png"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" onlick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Ana Səhifə</a></li>
+                    <li><a href="About.html">Haqqında</a></li>
+                    <li><a href="Frontend və Backend.html">Frontend və Backend </a></li>
+                  
+                    <li><a href="contact.html">Əlaqə</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onlick="showMenu()"></i>
+        </nav>
+        <h1>Haqqımda</h1>
+
+    </section>
+
+    <!-- About Us content -->
+<section class="about-us">  
+    <div class="row">
+        <div class="about-col">
+            <h1>Web Developer</h1>
+                <p>Mən Arif Kərimli...8 dekabr 2005 ci ildə Astara rayon Siyaku kəndində anadan olmuşam.2012 ci ildə Astara rayon Şağlazüzə kənd tam orta məktəbin 1 ci sinfinə qəbul olunmuşam.Hal-hazırda həmin məktəbin 11 ci sinif şagirdiyəm.Gələcəkdə Web developer olmaq əsas hədəflərimdən biridir...Back-end developer,Front-end developer və Full-stack developer sahələri üzrə maraqlanıram...
+                    Bu sahə üzrə öyrənmə mərhələsindəyəm...Əlimdən gəldiyi qədər çox çalşıram</p>
+                    <a href="" class="hero-btn red-btn">Web Designer</a>
+                </div>
+                <div class="about-col">
+                    <img src="img/InShot_20220709_160820194.jpg">
+                </div>
+        </div>   
+</section>                
+
+<!-- Footer -->
+<section class="footer">
+    <h4>Web Sayt Haqqında </h4>
+    <p>Bu Web Sayt Arif Kərimlinin hazırladığı bir Web saytdır.
+    <br>    
+    Web saytda HTML,CSS,JavaScript haqqında məlumat verilmişdir.Front-end Developer sahəsinin mahiyyəti izah edilmişdir.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkdin"></i>
+    </div>
+    <p>Made with  <i class="fa fa-heart-o"> Arif Kərimli</i></p>
+</section>
+<!--JavaScript for toggle menu  -->
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right= "0";
+    }
+    function hideMenu(){
+        navLinks.style.right= "-200px";
+    }
+</script>
+
+</body>
+</html>
